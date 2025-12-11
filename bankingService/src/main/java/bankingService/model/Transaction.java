@@ -1,7 +1,6 @@
 package bankingService.model;
 
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public record Transaction (int balance,int amount,TypeTransaction typeTransaction,Date date) {
